@@ -17,3 +17,4 @@ data/processed/*
 
 # Jupyter Notebook Checkpoints
 .ipynb_checkpoints
+data/MachineLearningRating_v3.txt
