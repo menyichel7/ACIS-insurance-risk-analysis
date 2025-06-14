@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+venv/
+
+# DVC
+*.dvc
+!.dvcignore
+!.dvc/config
+
+# Data
+data/raw/*
+data/processed/*
+
+# OS
+.DS_Store
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
