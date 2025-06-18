@@ -7,7 +7,13 @@ venv/
 *.dvc
 !.dvcignore
 !.dvc/config
+!.dvc/
 
+# If this line exists, keep it
+.dvc/
+
+# Add this exception right after
+!.dvc/
 # Data
 data/raw/*
 data/processed/*
