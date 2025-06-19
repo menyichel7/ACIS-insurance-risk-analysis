@@ -8,12 +8,9 @@ venv/
 !.dvc/
 !.dvcignore
 !.dvc/config
-*.dvc  # This comes last
+# Allow all .dvc files (including inside data/)
+!*.dvc
 
-# Ignore raw and processed data
+# Ignore data files, but NOT the .dvc metafiles
 data/*
-data/processed/*
-
-# OS and Jupyter
-.DS_Store
-.ipynb_checkpoints
+!data/*.dvc
