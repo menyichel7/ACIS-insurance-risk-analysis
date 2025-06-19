@@ -1,20 +1,16 @@
+# Python and Jupyter
 __pycache__/
 *.py[cod]
-*.ipynb_checkpoints
+.ipynb_checkpoints
 venv/
 
 # DVC
-*.dvc
+!.dvc/
 !.dvcignore
 !.dvc/config
+# Allow all .dvc files (including inside data/)
+!*.dvc
 
-# Data
-data/raw/*
-data/processed/*
-
-# OS
-.DS_Store
-
-# Jupyter Notebook Checkpoints
-.ipynb_checkpoints
+# Ignore data files, but NOT the .dvc metafiles
 data/*
+!data/*.dvc
