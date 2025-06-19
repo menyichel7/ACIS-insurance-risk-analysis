@@ -5,11 +5,10 @@ __pycache__/
 venv/
 
 # DVC
-*.dvc
 !.dvc/
 !.dvcignore
 !.dvc/config
-
+*.dvc  # This comes last
 
 # Ignore raw and processed data
 data/*
