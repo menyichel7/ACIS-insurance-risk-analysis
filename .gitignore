@@ -1,24 +1,20 @@
+# Python and Jupyter
 __pycache__/
 *.py[cod]
-*.ipynb_checkpoints
+.ipynb_checkpoints
 venv/
 
 # DVC
-# DVC - allow tracking DVC config and folders
+*.dvc
 !.dvc/
 !.dvcignore
 !.dvc/config
 
-# Avoid tracking actual DVC-tracked data files
-*.dvc
 
-# Data
-data/raw/*
+# Ignore raw and processed data
+data/*
 data/processed/*
 
-# OS
+# OS and Jupyter
 .DS_Store
-
-# Jupyter Notebook Checkpoints
 .ipynb_checkpoints
-data/*
