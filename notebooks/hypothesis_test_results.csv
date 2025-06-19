@@ -1,0 +1,6 @@
+,p-value
+H1 (Province - Claim Frequency),9.245710131121655e-20
+H1 (Province - Claim Severity),5.697438983975486e-06
+H2 (Zip - Claim Frequency),5.634751144699815e-14
+H3 (Zip - Margin),0.004076155346820106
+H4 (Gender - Claim Frequency),0.8371873107059133
